@@ -9,6 +9,7 @@
   "author": "Yernemm",
   "license": "none",
   "dependencies": {
+    "custom-electron-titlebar": "^3.2.3",
     "electron": "^9.1.0",
     "electron-updater": "^4.3.1"
   }

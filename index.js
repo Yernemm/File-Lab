@@ -20,7 +20,7 @@ function createWindow () {
 
 
   // and load the index.html of the app.
-  win.loadFile('./src/html/mainmenu.html');
+  win.loadFile('./src/html/index.html');
   win.removeMenu();
 
   // Open the DevTools.
@@ -69,6 +69,8 @@ app.on('activate', () => {
     createWindow();
   }
 })
+
+require('./src/js/host/main.js');
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
